@@ -13,7 +13,7 @@ const News= (props)=> {
   const capT= (string)=>{
   return string.charAt(0).toUpperCase()+ string.slice(1);
 }
-// document.title = `GO News - ${capT(props.category)}`    }
+    
 
    
 
@@ -33,6 +33,7 @@ const News= (props)=> {
    }
 
    useEffect(() => {
+    document.title = `GO News - ${capT(props.category)}`
      updateNews();    
      // eslint-disable-next-line
      }, [])

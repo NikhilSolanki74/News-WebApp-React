@@ -3,7 +3,6 @@ import './App.css';
 
 import React, { useState} from 'react'
 import NavBar from './components/NavBar';
-// eslint-disable-next-line
 import News from './components/News';
 import LoadingBar from 'react-top-loading-bar'
 import {

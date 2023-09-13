@@ -6,7 +6,7 @@ const NavBar=()=>{
  
     return (
       <div>
-         <nav className="fixed-top navbar navbar-expand-lg bg-dark">
+         <nav className=" navbar navbar-expand-lg bg-dark">
   <div className="container-fluid">
     <Link className=" navbar-brand text-white" to="/general"><strong>GO News</strong></Link>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
